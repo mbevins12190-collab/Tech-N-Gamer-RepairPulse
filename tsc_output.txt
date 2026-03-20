@@ -1,0 +1,26 @@
+src/routes/__root.tsx(1,78): error TS2305: Module '"@tanstack/react-router"' has no exported member 'Meta'.
+src/routes/admin.tsx(15,38): error TS2345: Argument of type '"/admin"' is not assignable to parameter of type 'keyof FileRoutesByPath | undefined'.
+src/routes/admin.tsx(74,10): error TS6133: 'isAddingUser' is declared but its value is never read.
+src/routes/admin.tsx(103,60): error TS18048: 'user.email' is possibly 'undefined'.
+src/routes/index.tsx(5,109): error TS6133: 'LucidePrinter' is declared but its value is never read.
+src/routes/index.tsx(6,20): error TS6133: 'useEffect' is declared but its value is never read.
+src/routes/index.tsx(184,110): error TS2552: Cannot find name 'LucidePrint'. Did you mean 'LucidePrinter'?
+src/routes/index.tsx(273,83): error TS2552: Cannot find name 'LucidePrint'. Did you mean 'LucidePrinter'?
+src/routes/index.tsx(315,51): error TS18047: 'repair.customer' is possibly 'null'.
+src/routes/index.tsx(316,58): error TS18047: 'repair.customer' is possibly 'null'.
+src/routes/index.tsx(317,55): error TS18047: 'repair.customer' is possibly 'null'.
+src/routes/index.tsx(318,67): error TS18047: 'repair.customer' is possibly 'null'.
+src/routes/index.tsx(328,51): error TS18047: 'repair.device' is possibly 'null'.
+src/routes/index.tsx(328,73): error TS18047: 'repair.device' is possibly 'null'.
+src/routes/index.tsx(329,60): error TS18047: 'repair.device' is possibly 'null'.
+src/routes/index.tsx(330,64): error TS18047: 'repair.device' is possibly 'null'.
+src/routes/index.tsx(333,43): error TS18047: 'repair.device' is possibly 'null'.
+src/routes/index.tsx(346,50): error TS18047: 'repair.device' is possibly 'null'.
+src/routes/index.tsx(349,60): error TS18047: 'repair.device' is possibly 'null'.
+src/routes/index.tsx(361,67): error TS18048: 'repair.details.deposit_amount' is possibly 'undefined'.
+src/routes/new-repair.tsx(69,16): error TS2345: Argument of type '{ to: "/"; }' is not assignable to parameter of type 'NavigateOptions<RouterCore<Route<Register, any, "/", "/", string, "__root__", undefined, {}, { queryClient: QueryClient; }, AnyContext, AnyContext, ... 6 more ..., undefined>, "never", false, RouterHistory, Record<...>>, string, "/", string, "">'.
+  Property 'search' is missing in type '{ to: "/"; }' but required in type 'MakeRequiredSearchParams<RouterCore<Route<Register, any, "/", "/", string, "__root__", undefined, {}, { queryClient: QueryClient; }, AnyContext, AnyContext, ... 6 more ..., undefined>, "never", false, RouterHistory, Record<...>>, string, "/">'.
+src/routes/new-repair.tsx(88,37): error TS2345: Argument of type '{ to: "/"; }' is not assignable to parameter of type 'NavigateOptions<RouterCore<Route<Register, any, "/", "/", string, "__root__", undefined, {}, { queryClient: QueryClient; }, AnyContext, AnyContext, ... 6 more ..., undefined>, "never", false, RouterHistory, Record<...>>, string, "/", string, "">'.
+  Property 'search' is missing in type '{ to: "/"; }' but required in type 'MakeRequiredSearchParams<RouterCore<Route<Register, any, "/", "/", string, "__root__", undefined, {}, { queryClient: QueryClient; }, AnyContext, AnyContext, ... 6 more ..., undefined>, "never", false, RouterHistory, Record<...>>, string, "/">'.
+src/routes/status.tsx(6,18): error TS6133: 'AnimatePresence' is declared but its value is never read.
+src/routes/status.tsx(14,38): error TS2345: Argument of type '"/status"' is not assignable to parameter of type 'keyof FileRoutesByPath | undefined'.
